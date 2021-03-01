@@ -1,4 +1,6 @@
 const { writeFile } = require("fs");
+const { prompt } = require("inquirer");
+const generateMarkdown = require("./utils/generateMarkdown.js");
 
 // array of questions for user
 const questions = [ 
