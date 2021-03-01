@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/SWEFuture20/Instructional-NodeJS#readme",
   "dependencies": {
-    "inquirer": "^8.0.0"
+    "fs": "0.0.1-security",
+    "inquirer": "^8.0.0",
+    "module": "^1.2.5",
+    "node": "^15.8.0"
   }
 }

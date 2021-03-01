@@ -5,28 +5,28 @@ function generateMarkdown(data) {
   # ${data.Title}
 
   ## Table of Contents
-  *[Description](#description)
-  *[Installation](#installation)
-  *[Usage](#usage)
-  *[Contributing](#contributing) 
-  *[Tests](#tests)
-  *[Licenses](#licenses)
-  *[Questions](#questions) 
+  *[Description]
+  *[Installation]
+  *[Usage]
+  *[Contributing]
+  *[Tests]
+  *[Licenses]
+  *[Questions] 
 
   ##Description
   ${data.Description}
-
+  console.log(${data.Description})
   ##Installation Instructions
-  ${data.Installation-Instruction}
+  ${data.Installation}
 
   ##Usage Information
-  ${data.Usage-Information}
+  ${data.Usage}
 
   ##Contribution-Guidelines
-  ${data.Contribution-Guidelines}
+  ${data.Contribution}
 
   ##Test-Instructions
-  ${data.Test-Instructions}
+  ${data.Test}
 
   ##Licenses
   ${data.Licenses}
@@ -34,10 +34,9 @@ function generateMarkdown(data) {
   ##Questions
   If you have additional questions, you can contact me at one of the following places:
 
-  GitHub-Username:[${data.GitHub-Username}](https://github.com/SWEFuture20)
-  Email-Address:[${data.Email-Address}](https://github.com/SWEFuture20)
-  Video:[${data.Video}]()
+  GitHub-Username:[${data.GitHub}](https://github.com/SWEFuture20)
+  Email-Address:[${data.Email}](https://github.com/SWEFuture20)
+  
 `;
 }
-
 module.exports = generateMarkdown;

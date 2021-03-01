@@ -1,13 +1,13 @@
-const { writeFile } = require("fs");
-const inquirer = require("inquirer");
-var prompt = inquirer.createPromptModule();
+const { writeFile } = require("fs")
+const pkg = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown.js");
+const { prompt } = pkg;
 
 // array of questions for user
 const questions = [ 
     {
         type: "input",
-        message: "What is the titile of your project?",
+        message: "What is the title of your project?",
         name: "Title"
     },
     {
@@ -18,22 +18,22 @@ const questions = [
     {
         type: "input",
         message: "Give some instructions on installing this ReadMe",
-        name: "Installation-Instruction"
+        name: "Installation"
     },
     {
         type: "input",
         message: "What is the purpose for using this ReadMe?",
-        name: "Usage-Information"
+        name: "Usage"
     },
     {
         type: "input",
         message: "What are the guidelines contributions?",
-        name: "Contribution-Guidelines"
+        name: "Contribution"
     },
     {
         type: "input",
         message: "How are you testing the instructions in this file?",
-        name: "Test-Instructions"
+        name: "Test"
     },
     {
         type: "list",
@@ -50,18 +50,18 @@ const questions = [
     {
         type: "input",
         message: "What is your GitHub name?",
-        name: "GitHub-Username"
+        name: "GitHub"
     },
     {
         type: "input",
         message: "What is your email address?",
-        name: "Email-Address"
+        name: "Email"
     },
-    {
-        type: "input",
-        message: "Do you have a link to a video for this project?",
-        name: "Video"
-    }
+    // {
+    //     type: "input",
+    //     message: "Do you have a link to a video for this project?",
+    //     name: "Video"
+    // }
 ];
 
 
@@ -76,13 +76,15 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-    prompt.apply(questions).then(answers => {
+    prompt(questions).then(answers => {
         const response = generateMarkdown(answers);
         console.log(answers);
 
         writeToFile("README.md", response)
-    })
-}
+    }).catch((err) =>
+console.log(err))
+    };
+
 
 // function call to initialize program
 init();
