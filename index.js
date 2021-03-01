@@ -42,6 +42,16 @@ const questions = [
             "GNU-GPL-3.0-or-later"
         ]
     },
+    {
+        type: "input",
+        message: "What is your GitHub name?",
+        name: "GitHub Username"
+    },
+    {
+        type: "input",
+        message: "What is your email address?",
+        name: "Email Address"
+    },
 ];
 
 
