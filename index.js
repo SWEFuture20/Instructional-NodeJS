@@ -1,3 +1,5 @@
+const { writeFile } = require("fs");
+
 // array of questions for user
 const questions = [ 
     {
@@ -57,11 +59,15 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
+    writeFile(fileName, data, err => {
+        if (err) {
+            throw err;
+        }
+    });
 }
 
 // function to initialize program
 function init() {
-
 }
 
 // function call to initialize program
