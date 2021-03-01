@@ -56,6 +56,11 @@ const questions = [
         message: "What is your email address?",
         name: "Email-Address"
     },
+    {
+        type: "input",
+        message: "Do you have a link to a video for this project?",
+        name: Video
+    }
 ];
 
 
