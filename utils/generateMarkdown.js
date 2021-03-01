@@ -1,4 +1,5 @@
 // function to generate markdown for README
+// On Lines 7-14, I am creating the structure for the README in the following order. 
 function generateMarkdown(data) {
   return `
   # ${data.Title}
@@ -31,7 +32,7 @@ function generateMarkdown(data) {
   ${data.Licenses}
 
   ##Questions
-  If you have additional questions, you can contact at one of the following places:
+  If you have additional questions, you can contact me at one of the following places:
 
   GitHub-Username:[${data.GitHub-Username}](https://github.com/SWEFuture20)
   Email-Address:[${data.Email-Address}](https://github.com/SWEFuture20)

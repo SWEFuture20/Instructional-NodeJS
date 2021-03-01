@@ -1,5 +1,6 @@
 const { writeFile } = require("fs");
-const { prompt } = require("inquirer");
+const inquirer = require("inquirer");
+var prompt = inquirer.createPromptModule();
 const generateMarkdown = require("./utils/generateMarkdown.js");
 
 // array of questions for user
@@ -59,7 +60,7 @@ const questions = [
     {
         type: "input",
         message: "Do you have a link to a video for this project?",
-        name: Video
+        name: "Video"
     }
 ];
 
