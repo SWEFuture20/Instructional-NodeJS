@@ -34,5 +34,5 @@
 
   - GitHub-Username: [SWEFuture20](https://github.com/SWEFuture20)
   - Email-Address: [queen1892@gmail.com](https://github.com/SWEFuture20)
-  - Video:[Link to Video](https://drive.google.com/file/d/1qjSTUUAZ66wpI_wj1160uiJl0tW8m1It/view)
+  - Video: [Link to Video](https://drive.google.com/file/d/1qjSTUUAZ66wpI_wj1160uiJl0tW8m1It/view)
   
