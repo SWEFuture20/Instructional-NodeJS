@@ -2,13 +2,20 @@
   # Instructional NodeJS
 
   ## Table of Contents
-  *[Description](#description)
-  *[Installation](#installation)
-  *[Usage](#usage)
-  *[Contributing](#contributing) 
-  *[Tests](#tests)
-  *[Licenses](#licenses)
-  *[Questions](#questions) 
+  [Description]
+  (#description)
+  [Installation]
+  (#installation)
+  [Usage]
+  (#usage)
+  [Contributing]
+  (#contributing) 
+  [Tests]
+  (#tests)
+  [Licenses]
+  (#licenses)
+  [Questions]
+  (#questions) 
 
   ##Description
   In this app, A developer will learn how to generate a README file with clicking the option of a README when you first create a repository.
