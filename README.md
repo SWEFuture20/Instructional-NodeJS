@@ -2,7 +2,7 @@
   # Instructional NodeJS
 
   ## Table of Contents
-  [Description](#description)
+  -[Description](#description)
   [Installation](#installation)
   [Usage](#usage)
   [Contributing](#contributing) 
