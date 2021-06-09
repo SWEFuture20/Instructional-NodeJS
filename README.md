@@ -10,26 +10,26 @@
   - [Licenses](#licenses)
   - [Questions](#questions) 
 
-  ##Description
+  ## Description
   In this app, A developer will learn how to generate a README file with clicking the option of a README when you first create a repository.
   console.log(In this app, A developer will learn how to generate a README file with clicking the option of a README when you first create a repository.)
   
-  ##Installation Instructions
+  ## Installation Instructions
   Run npm init, npm i inquirer, make sure that you have a node modules, package.json, package-lock.json.
 
-  ##Usage Information
+  ## Usage Information
   To create a README File
 
-  ##Contribution-Guidelines
+  ## Contribution-Guidelines
   Ask to Join
 
-  ##Test-Instructions
+  ## Test-Instructions
   I had to console.log every peice of data so I can catch error and fix them
 
-  ##Licenses
+  ## Licenses
   MIT
 
-  ##Questions
+  ## Contact
   If you have additional questions, you can contact me at one of the following places:
 
   GitHub-Username:[SWEFuture20](https://github.com/SWEFuture20)
